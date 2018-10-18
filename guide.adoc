@@ -17,7 +17,6 @@ Welcome Red Hat Connect for Technology Partners. This guide provides instruction
 
 toc::[]
 
-I think most people use Markdown when creating documentation on GitHub. Markdown is great and easy, but I often create technical documentation or training material where some of the additional semantics of Asciidoc are really helpful.
 
 == Step One: Complete Questionnaire and Join SIG
 
