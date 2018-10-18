@@ -26,9 +26,11 @@ First off, fill out the https://docs.google.com/forms/d/e/1FAIpQLSfEv47Vu_H-j_wQ
 
 In order to certify your Operator, you must have a certified Container image published though Red Hat Connect and available on the https://access.redhat.com/containers[Red Hat Container Catalog].
 
-We have an extensive guide that will walk you through certifying a Container image that can be found https://github.com/RHC4TP/documentation/tree/master/Container%20Zone%20-OpenShift[here]
+We have an extensive guide that will walk you through certifying a Container image that can be found https://github.com/RHC4TP/documentation/tree/master/Container%20Zone%20-OpenShift[here].
 
 == Step Three: Install Openshift Container Platform for Testing
+
+Follow this https://docs.google.com/document/d/1XYTxY-iPrswP5HoZ9DQklUOfGTy9DCDHXcUbrqI--DA/edit#heading=h.gqtq4ip36gyx[guide] to setup OCP and configure for Operator functionality. 
 
 == Step Four: Install Operator Framework 
 
