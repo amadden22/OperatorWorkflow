@@ -13,7 +13,7 @@ endif::[]
 :toc:
 :toc-placement!:
 
-Welcome Red Hat Connect for Technology Partners. This guide provides instructions on how to publish a certified Operator on the Red Hat Connect for Technology Partners web portal.
+Welcome Red Hat Connect Technology Partners. This guide provides instructions on how to publish a certified Operator on the https://connect.redhat.com web portal.
 
 toc::[]
 
