@@ -13,12 +13,14 @@ endif::[]
 :toc:
 :toc-placement!:
 
-Welcome Red Hat Connect Technology Partners. This guide provides instructions on how to publish a certified Operator on the https://connect.redhat.com web portal.
+Welcome Red Hat Connect Technology Partners. This guide provides instructions on how to publish a certified Operator on the https://connect.redhat.com[Connect] web portal.
 
 toc::[]
 
 
 == Step One: Complete Questionnaire and Join SIG
+
+https://docs.google.com/forms/d/e/1FAIpQLSfEv47Vu_H-j_wQroOMMh0MIn_8lbDcmE_Lpj5YAGiNo0i_8g/viewform[Operator Framework Community Questionnaire]
 
 == Step Two: Publish Container Image in Connect
 
