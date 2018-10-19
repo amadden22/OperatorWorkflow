@@ -30,12 +30,15 @@ We have an extensive guide that will walk you through certifying a Container ima
 
 == Step Three: Install Openshift Container Platform for Testing
 
-Follow this guide to setup OCP and configure for Operator functionality. 
+Follow this guide (Josh's OCP setup) to setup OCP in AWS and configure for Operator functionality. 
 
 == Step Four: Install Operator Framework 
 
-
-
+The Operator Framework contains several repositories that will cater to your desired Operator development workflow. These include:
+        1. https://github.com/operator-framework/operator-sdk[Operator SDK]: The SDK offers a toolset designed to make life easier for those wanting to develop an Operator. It allows users to encode operational knowledge into their Operator by using high level APIs and abstraction. This framework provides all the tools you need to build, test, and package your Operator successfully. The best practices and code patterns necessary for an effective Operator can all be found in the SDK. Implementing the business logic specific to your application is made much simpler.
+        2. https://github.com/operator-framework/helm-app-operator-kit[Helm App Operator Kit]: Not all applications will need a fully customized Operator to be managed. With the Helm App Operator Kit, you can easily manage stateless applications and deploy them as a single Kubernetes resource. This project serves as a template for doing this, by making use of helm charts. It provides standardized manifest files for your Operator, in the form of YAML. Just modify the pre-existing files with information about your application and deploy.
+        3. https://github.com/operator-framework/operator-sdk/tree/master/doc/ansible[Ansible based Operator]: The SDK includes the tools needed to power an Operator using Ansible Playbooks and roles. If you are already using Ansible and want to make an Operator, this is the easiest route. The SDK will create a directory template for you to fill out with information about your application. Simply, create a Custom Resource Definition in the YAML format and define the reconciliation to be completed by your Playbook or roles. 
+        
 == Step Five: Build Operator
 
 == Step Six: Test Operator
