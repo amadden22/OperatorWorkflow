@@ -52,7 +52,11 @@ The Operator Framework contains several repositories that will cater to your des
 
 == Step Six: Test Operator
 
+Testing Operators can prove to be a challenging task. 
+
 == Step Seven: Certify Operator
+
+The operator certification tooling is still under development. It is expected to be available in December 2018. At that point, your Operator will pass though a security scan. If passed, the Operator will be published alongside you Container image in the Red Hat Container Catalog (RHCC).
 
 == Step Eight: Post Certification
 
