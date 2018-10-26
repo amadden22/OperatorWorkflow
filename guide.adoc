@@ -54,7 +54,7 @@ The Operator Framework contains several repositories that will cater to your des
 
 Testing Operators can prove to be a challenging task, reproducing the real world situations an Operator will confront in a clustered environment.
 
-The Operator-SDK offers a https://github.com/operator-framework/operator-sdk/tree/master/test[testing framework] that makes writing tests for your Operator simpler by removing boilerplate code and providing common test utilities. The testing library can be found in pkg/test.
+The Operator-SDK offers a https://github.com/operator-framework/operator-sdk/tree/master/test[testing framework] that makes writing tests for your Operator simpler by removing boilerplate code and providing common test utilities. The testing library can be found in 'pkg/test'.
 
 An example of creating an end to end test for your Operator, using the testing framework can be found https://github.com/operator-framework/operator-sdk/blob/master/doc/test-framework/writing-e2e-tests.md[here].
 
