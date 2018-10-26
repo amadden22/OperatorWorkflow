@@ -64,4 +64,6 @@ The operator certification tooling is still under development. It is expected to
 
 == Step Eight: Post Certification
 
+Work in progress
+
 
